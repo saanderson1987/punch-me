@@ -10,12 +10,6 @@ const imagesSrc = {
   up2: 'images/up2.jpg',
 };
 
-// gest.options.debug(true);
-
-gest.start();
-
-gest.options.sensitivity(100);
-
 
 gest.options.subscribeWithCallback(function(gesture) {
   if (gesture.left) {
@@ -36,6 +30,9 @@ gest.options.subscribeWithCallback(function(gesture) {
 
   }
 });
+
+gest.start();
+
 
 
 
