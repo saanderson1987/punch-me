@@ -13,7 +13,7 @@ const imagesSrc = {
 
 gest.options.subscribeWithCallback(function(gesture) {
   if (gesture.left) {
-    console.log('left11');
+    console.log('left');
     image.src = imagesSrc.left1;
     animate(imagesSrc.left2, imagesSrc.left1, imagesSrc.center);
   }
