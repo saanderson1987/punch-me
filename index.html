@@ -5,11 +5,25 @@
     <title>Outernets Challenge</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src='gest.min.js'></script>
-    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' href='style.css'>
+    <style>
+      #text {
+        text-align: center;
+      }
+      #image-container {
+        margin: 0 auto;
+        width: fit-content;
+      }
+    </style>
   </head>
   <body>
     <div id='main'>
-      <div id='image-container'>
+      <div id='text'>
+        <h1>Punch me!</h1>
+        <p>Using your camera, you can give me a right hook, left hook, and uppercut.</p>
+        <p>Please note that you may have issues if the lighting is not optimal. The best lighting I've found is if you have lights behind the camera and no lights behind you.</p>
+      </div>
+      <div id='image-container' class='image-container'>
         <img id='image' src='images/center.jpg' height='600' width='800'>
       </div>
     </div>
